@@ -1,0 +1,10 @@
+<h1>Customers</h1>
+<%= link_to("Show Alphabetized", customers_alphabetized_path) %> | <%= link_to("Filter by Missing Email", customers_missing_email_path) %>
+
+<ol>
+  <% @customers.each do |customer| %>
+    <li>
+      <%= render partial: customer %>
+    </li>
+  <% end %>
+</ol>

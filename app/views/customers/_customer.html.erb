@@ -1,0 +1,20 @@
+<h3><%= customer.full_name %></h3>
+<div class="customer-details">
+  <%= image_tag(customer.image, class: "customer-image") %>
+  <div>
+    <table>
+      <tr>
+        <th>Phone Number</th>
+        <td><%= customer.phone_number %></td>
+      </tr>
+      <tr>
+        <th>Email Address</th>
+        <td><%= customer.email_address %></td>
+      </tr>
+      <tr>
+        <th>Notes</th>
+        <td><%= customer.notes %></td>
+      </tr>
+    </table>
+  </div>
+</div>

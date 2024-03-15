@@ -1,0 +1,13 @@
+table {
+    width: auto !important;
+}
+
+.customer-details {
+    display: flex;
+    flex-direction: row;
+}
+
+.customer-image {
+    width: 128px;
+    height: 128px;
+}

@@ -1,0 +1,10 @@
+<h1>Customers (Alphabetized)</h1>
+<%= link_to("Return to All", customers_path) %>
+
+<ol>
+  <% @customers.each do |customer| %>
+    <li>
+      <%= render partial: customer %>
+    </li>
+  <% end %>
+</ol>
